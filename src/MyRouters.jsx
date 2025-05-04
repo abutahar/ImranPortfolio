@@ -7,6 +7,7 @@ import Contact from "./components/Contact";
 import App from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import PublicLayout from "./Layout/PublicLayout";
+import Profile from "./pages/Profile";
 
 const router = createBrowserRouter([
 	{
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
 			{
 				path: "/contact",
 				element: <Contact></Contact>,
+			},
+			{
+				path: "/profile",
+				element: <Profile></Profile>,
 			},
 		],
 	},
